@@ -26,9 +26,9 @@ Deploy on Github or Cloud
 ## Authors
 :bust_in_silhouette: **NduatiKagiri**
 
-GitHub: @NduatiKagiri
-Twitter: @NduatiKagiri
-LinkedIn: NduatiKagiri
+GitHub: https://github.com/NduatiKagiri
+Twitter: https://twitter.com/NduatiKagiri
+LinkedIn: https://linkedin.com/in/nduati-kagiri-5414a4225/
 
 ## :handshake: Contributing
 Contributions, issues, and feature requests are welcome!
