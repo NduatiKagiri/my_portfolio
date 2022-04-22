@@ -359,7 +359,7 @@ nav .nav-links-list li a {
   list-style: none;
 }
 
-.stories-info-button a {
+#stories-info-button {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -378,8 +378,7 @@ nav .nav-links-list li a {
   float: left;
 }
 
-.stories-info-button a:hover,
-.printing a:hover {
+#stories-info-button:hover {
   border: 1px solid #8993a4;
   background: #fff;
   color: #091e42;
@@ -457,7 +456,11 @@ nav .nav-links-list li a {
   margin: 16px 0 -16px -16px;
 }
 
-.work-card-button a {
+#work-card-button1,
+#work-card-button2,
+#work-card-button3,
+#work-card-button4,
+#work-card-button5 {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -475,7 +478,7 @@ nav .nav-links-list li a {
   background-size: cover;
 }
 
-.printing a {
+#printing {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -492,6 +495,12 @@ nav .nav-links-list li a {
   text-decoration: none;
   width: 100%;
   height: 60px;
+}
+
+#printing:hover {
+  border: 1px solid #8993a4;
+  background: #fff;
+  color: #091e42;
 }
 
 .printing-more {
@@ -605,7 +614,7 @@ nav .nav-links-list li a {
   margin-bottom: 24px;
 }
 
-.about-heading h2{
+.about-heading h2 {
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -623,7 +632,7 @@ nav .nav-links-list li a {
   color: #f4f5f7;
 }
 
-.about-button a {
+.about .about-button a {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -679,13 +688,17 @@ nav .nav-links-list li a {
   color: #fff;
 }
 
-.tools-list ul ul li {
+#languages,
+#frameworks,
+#skills {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
 }
 
-.tools-list ul ul li img {
+.languages img,
+.frameworks img,
+.skills img {
   margin-right: 12px;
 }
 
@@ -715,7 +728,7 @@ nav .nav-links-list li a {
     margin-bottom: 24px;
   }
 
-  .about-heading h2{
+  .about-heading h2 {
     line-height: 88px;
   }
 
