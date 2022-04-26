@@ -768,3 +768,90 @@ nav .nav-links-list li a {
     margin-right: 24px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  #contact {
+    padding: 120px 24px 124px 24px;
+  }
+
+  #contact h2 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    color: #172b4d;
+    margin-bottom: 73px;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  form input,
+  form textarea {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #979493;
+    background: transparent;
+    border: none;
+    margin-bottom: 24px;
+    width: 100%;
+  }
+
+  form input:focus,
+  form textarea:focus {
+    border: none;
+    outline: none;
+  }
+
+  form input {
+    border-bottom: 1px solid #dBd8d7;
+    padding: 16px;
+  }
+
+  form textarea {
+    padding: 12px;
+    height: 114px;
+    resize: none;
+  }
+
+  form button {
+    background: #ff6b00;
+    padding: 12px;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    border: none;
+  }
+
+  hr {
+    background: #dfe1e6;
+    height: 1px;
+    margin-bottom: 25px;
+  }
+
+  footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer ul li {
+    margin-right: 21px;
+  }
+
+  footer {
+    margin-bottom: 20px;
+  }
+}
