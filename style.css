@@ -805,14 +805,8 @@ nav .nav-links-list li a {
     width: 100%;
   }
 
-  form input:focus,
-  form textarea:focus {
-    border: none;
-    outline: none;
-  }
-
   form input {
-    border-bottom: 1px solid #dBd8d7;
+    border-bottom: 1px solid #dbd8d7;
     padding: 16px;
   }
 
@@ -820,6 +814,12 @@ nav .nav-links-list li a {
     padding: 12px;
     height: 114px;
     resize: none;
+  }
+
+  form input:focus,
+  form textarea:focus {
+    border: none;
+    outline: none;
   }
 
   form button {
@@ -832,6 +832,14 @@ nav .nav-links-list li a {
     font-size: 17px;
     line-height: 24px;
     border: none;
+    display: table;
+    margin: 0 auto;
+  }
+
+  form button:hover {
+    background: #fff;
+    color: #262626;
+    border: 1px solid #262626;
   }
 
   hr {
