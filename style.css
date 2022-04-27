@@ -864,19 +864,23 @@ nav .nav-links-list li a {
   margin-bottom: 25px;
 }
 
-footer ul {
+#footer footer ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 
-footer ul li {
+#footer footer ul li {
   margin-right: 21px;
 }
 
-footer {
+#footer {
   margin-bottom: 30px;
+}
+
+#footer h2 {
+  display: none;
 }
 
 @media screen and (max-width: 768px) {
@@ -927,7 +931,7 @@ footer {
     margin: 0 auto;
   }
 
-  footer {
+  #footer {
     margin-bottom: 20px;
   }
 }
