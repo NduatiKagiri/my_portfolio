@@ -458,6 +458,7 @@ nav .nav-links-list li a {
   width: calc(100% + 32px);
   height: 48px;
   margin: 16px 0 -16px -16px;
+  transition: all 0.3s ease-out;
 }
 
 .work-card:hover .work-card-button {
@@ -478,6 +479,7 @@ nav .nav-links-list li a {
   letter-spacing: 0.03em;
   color: #fff;
   text-decoration: none;
+  transition: all 0.3s ease-out;
 }
 
 .printing {
@@ -854,6 +856,7 @@ nav .nav-links-list li a {
   font-size: 17px;
   line-height: 24px;
   border: none;
+  transition: all 0.3s ease-out;
 }
 
 .contact-form form button:hover {
