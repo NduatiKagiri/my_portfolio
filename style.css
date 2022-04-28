@@ -42,6 +42,8 @@ header {
   line-height: 20px;
   color: #fff;
   text-decoration: none;
+  transition-duration: 2s;
+  transform: rotate(360deg);
 }
 
 nav {
@@ -798,6 +800,10 @@ nav .nav-links-list li a {
   font-size: 40px;
   line-height: 52px;
   color: #262626;
+}
+
+.contact-description h2:hover {
+  transform: translate(0, 60px);
 }
 
 .contact-form {
