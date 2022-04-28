@@ -460,6 +460,10 @@ nav .nav-links-list li a {
   margin: 16px 0 -16px -16px;
 }
 
+.work-card:hover .work-card-button {
+  display: flex;
+}
+
 #work-card-button1,
 #work-card-button2,
 #work-card-button3,
