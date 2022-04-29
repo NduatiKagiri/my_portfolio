@@ -42,6 +42,8 @@ header {
   line-height: 20px;
   color: #fff;
   text-decoration: none;
+  transition-duration: 2s;
+  transform: rotate(360deg);
 }
 
 nav {
@@ -458,6 +460,7 @@ nav .nav-links-list li a {
   width: calc(100% + 32px);
   height: 48px;
   margin: 16px 0 -16px -16px;
+  transition: all 0.3s ease-out;
 }
 
 .work-card:hover .work-card-button {
@@ -478,6 +481,7 @@ nav .nav-links-list li a {
   letter-spacing: 0.03em;
   color: #fff;
   text-decoration: none;
+  transition: all 0.3s ease-out;
 }
 
 .printing {
@@ -721,6 +725,10 @@ nav .nav-links-list li a {
   border-radius: 50%;
 }
 
+#works .works .stories .stories-img img:hover {
+  transform: scale(1.1);
+}
+
 @media screen and (max-width: 768px) {
   #about {
     padding: 120px 24px 130px 24px;
@@ -794,6 +802,10 @@ nav .nav-links-list li a {
   color: #262626;
 }
 
+.contact-description h2:hover {
+  transform: translate(0, 60px);
+}
+
 .contact-form {
   width: 59%;
 }
@@ -854,6 +866,7 @@ nav .nav-links-list li a {
   font-size: 17px;
   line-height: 24px;
   border: none;
+  transition: all 0.3s ease-out;
 }
 
 .contact-form form button:hover {
