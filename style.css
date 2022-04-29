@@ -310,10 +310,6 @@ nav .nav-links-list li a {
   height: auto;
 }
 
-.stories-img img:hover {
-  transform: scale(1.1);
-}
-
 .stories-info {
   width: 44%;
   display: flex;
@@ -727,6 +723,10 @@ nav .nav-links-list li a {
 
 .skills img {
   border-radius: 50%;
+}
+
+#works .works .stories .stories-img img:hover {
+  transform: scale(1.1);
 }
 
 @media screen and (max-width: 768px) {
