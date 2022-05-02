@@ -8,6 +8,11 @@
 - HTML, CSS
 - Stylelint, Web Hint, Lighthouse
 
+## Online Version Link
+This project is available online through the following links.
+https://nduatikagiri.github.io
+https://nduatikagiri.co.ke
+
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
 
