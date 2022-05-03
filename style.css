@@ -378,7 +378,7 @@ nav .nav-links-list li a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #f55800;
+  background: #1c1a19;
   border: none;
   text-decoration: none;
   float: left;
@@ -455,7 +455,7 @@ nav .nav-links-list li a {
   display: none;
   justify-content: center;
   align-items: center;
-  background: #f55800;
+  background: #1c1a19;
   border: none;
   width: calc(100% + 32px);
   height: 48px;
@@ -502,7 +502,7 @@ nav .nav-links-list li a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #f55800;
+  background: #1c1a19;
   border: none;
   text-decoration: none;
   width: 100%;
@@ -656,7 +656,7 @@ nav .nav-links-list li a {
   text-align: center;
   letter-spacing: 0.03em;
   color: #fff;
-  background: #f55800;
+  background: #1c1a19;
   padding: 12px;
   text-decoration: none;
 }
@@ -857,7 +857,7 @@ nav .nav-links-list li a {
 }
 
 .contact-form form button {
-  background: #ff6b00;
+  background: #1c1a19;
   padding: 12px;
   color: #fff;
   font-family: 'Inter', sans-serif;
