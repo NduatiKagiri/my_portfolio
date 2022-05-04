@@ -378,7 +378,7 @@ nav .nav-links-list li a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #f55800;
+  background: #1c1a19;
   border: none;
   text-decoration: none;
   float: left;
@@ -455,7 +455,7 @@ nav .nav-links-list li a {
   display: none;
   justify-content: center;
   align-items: center;
-  background: #f55800;
+  background: #1c1a19;
   border: none;
   width: calc(100% + 32px);
   height: 48px;
@@ -502,7 +502,7 @@ nav .nav-links-list li a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #f55800;
+  background: #1c1a19;
   border: none;
   text-decoration: none;
   width: 100%;
@@ -655,8 +655,8 @@ nav .nav-links-list li a {
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #fff;
-  background: #f55800;
+  color: #1c1a19;
+  background: #fff;
   padding: 12px;
   text-decoration: none;
 }
@@ -664,6 +664,7 @@ nav .nav-links-list li a {
 .about-button a:hover {
   padding: 14px;
   background: #262626;
+  color: #fff;
   border: 2px solid white;
 }
 
@@ -857,7 +858,7 @@ nav .nav-links-list li a {
 }
 
 .contact-form form button {
-  background: #ff6b00;
+  background: #2816cf;
   padding: 12px;
   color: #fff;
   font-family: 'Inter', sans-serif;
