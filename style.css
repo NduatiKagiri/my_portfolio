@@ -655,8 +655,8 @@ nav .nav-links-list li a {
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #fff;
-  background: #1c1a19;
+  color: #1c1a19;
+  background: #fff;
   padding: 12px;
   text-decoration: none;
 }
@@ -664,6 +664,7 @@ nav .nav-links-list li a {
 .about-button a:hover {
   padding: 14px;
   background: #262626;
+  color: #fff;
   border: 2px solid white;
 }
 
