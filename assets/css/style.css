@@ -1113,6 +1113,24 @@ nav .nav-links-list li a {
   margin-bottom: 24px;
 }
 
+#email-message {
+  display: none;
+  width: auto;
+  padding: 4px 16px;
+  border: none;
+  background: #e78587;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #fff;
+  margin-bottom: 24px;
+  margin-top: -24px;
+  margin-left: 16px;
+  border-radius: 4px;
+}
+
 .contact-form form textarea {
   width: 100%;
   padding: 12px;
