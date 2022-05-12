@@ -1,41 +1,41 @@
 const works = [
   {
-    heading : 'Data Dashboard Healthcare',
-    desc : "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    languages : [
+    heading: 'Data Dashboard Healthcare',
+    desc: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+    languages: [
       'html',
       'bootstrap',
-      'ruby'
-    ]
+      'ruby',
+    ],
   },
   {
-    heading : 'Website Portfolio',
-    desc : "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    languages : [
+    heading: 'Website Portfolio',
+    desc: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+    languages: [
       'html',
       'bootstrap',
-      'ruby'
-    ]
+      'ruby',
+    ],
   },
   {
-    heading : 'Professional Art Printing Data More',
-    desc : "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    languages : [
+    heading: 'Professional Art Printing Data More',
+    desc: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+    languages: [
       'html',
       'bootstrap',
-      'ruby'
-    ]
-  }
-]
+      'ruby',
+    ],
+  },
+];
 
 function displayCards() {
   works.forEach((work, index) => {
-    let langs = "";
+    let langs = '';
     work.languages.forEach((lang) => {
       langs += `<li>${lang}</li>`;
     });
 
-    document.querySelector(".works").innerHTML += `
+    document.querySelector('.works').innerHTML += `
     <div class="work-card work-card-${index}">
       <div class="work-card-heading">
         <h4>${work.heading}</h4>
@@ -58,11 +58,30 @@ function displayCards() {
 
 displayCards();
 
-function setHeading (btnID) {
-  iD = btnID;
-  heading = works[iD].heading
+function setHeading(btnID) {
+  const iD = btnID;
+  const { heading } = works[iD];
 
-  document.querySelector(".project-title").innerHTML = `
+  document.querySelector('.project-title').innerHTML = `
     <h4> ${heading} </h4>
   `;
 }
+
+const modal = document.getElementById('myModal');
+const btn = document.querySelectorAll('.work-card-button button');
+const span = document.getElementsByClassName('close')[0];
+btn.forEach((button) => {
+  button.onclick = () => {
+    modal.style.display = 'block';
+    const btnID = this.id;
+    setHeading(btnID);
+  };
+});
+span.onclick = () => {
+  modal.style.display = 'none';
+};
+window.onclick = (event) => {
+  if (event.target === modal) {
+    modal.style.display = 'none';
+  }
+};
