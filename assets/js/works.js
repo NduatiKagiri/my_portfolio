@@ -50,7 +50,7 @@ const works = [
       'bootstrap',
       'ruby',
     ],
-    image: 'compjs1.jpeg',
+    image: 'compjs4.jpeg',
     gitLink: 'https://github.com/NduatiKagiri/my_portfolio',
     liveLink: 'https://nduatikagiri.co.ke',
   },
@@ -62,7 +62,7 @@ const works = [
       'bootstrap',
       'ruby',
     ],
-    image: 'compjs2.jpeg',
+    image: 'compjs4.jpeg',
     gitLink: 'https://github.com/NduatiKagiri/my_portfolio',
     liveLink: 'https://nduatikagiri.co.ke',
   },
@@ -74,7 +74,7 @@ const works = [
       'bootstrap',
       'ruby',
     ],
-    image: 'compjs3.jpeg',
+    image: 'compjs4.jpeg',
     gitLink: 'https://github.com/NduatiKagiri/my_portfolio',
     liveLink: 'https://nduatikagiri.co.ke',
   },
@@ -98,7 +98,7 @@ const works = [
       'bootstrap',
       'ruby',
     ],
-    image: 'compjs5.jpeg',
+    image: 'compjs4.jpeg',
     gitLink: 'https://github.com/NduatiKagiri/my_portfolio',
     liveLink: 'https://nduatikagiri.co.ke',
   },
@@ -110,7 +110,7 @@ const works = [
       'bootstrap',
       'ruby',
     ],
-    image: 'compjs6.jpeg',
+    image: 'compjs4.jpeg',
     gitLink: 'https://github.com/NduatiKagiri/my_portfolio',
     liveLink: 'https://nduatikagiri.co.ke',
   },
@@ -187,7 +187,7 @@ function modalInfo(btnID) {
       </ul>
     </div>
   </div>
-  <div class="modal-bottom">
+  <div class="modal-bottom" id="modal-bottom">
     <div class="project-img">
       <img src="assets/img/${image}" alt="${heading} Image">
     </div>
@@ -198,10 +198,6 @@ function modalInfo(btnID) {
       <div class="project-links">
         <a href="${liveLink}" id="project-link-1">See Live <span>&nbsp; &nbsp; &nbsp;</span> <i class="fas fa-external-link" aria-hidden="true"></i></a>
         <a href="${gitLink}" id="project-link-2">See Source <span>&nbsp; &nbsp; &nbsp;</span> <i class="fab fa-github" aria-hidden="true"></i></a>
-      </div>
-      <div class="project-buttons">
-        <button type="button" name="button"><i class="fal fa-long-arrow-left" aria-hidden="true"></i> previous project</button>
-        <button type="button" name="button">next project  <i class="fal fa-long-arrow-right" aria-hidden="true"></i></button>
       </div>
     </div>
   </div>

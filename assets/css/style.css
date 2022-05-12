@@ -423,7 +423,7 @@ nav .nav-links-list li a {
   align-items: flex-start;
   margin-bottom: 10px;
   width: 100%;
-  height: auto;
+  height: 307px;
 }
 
 .project-img {
@@ -467,8 +467,8 @@ nav .nav-links-list li a {
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
-  margin-bottom: 50px;
   width: 100%;
+  margin-bottom: 5px;
 }
 
 #project-link-1,
@@ -837,6 +837,8 @@ nav .nav-links-list li a {
   .modal-bottom {
     flex-direction: column;
     justify-content: flex-start;
+    margin-bottom: 0;
+    height: auto;
   }
 
   .project-img {
@@ -858,6 +860,7 @@ nav .nav-links-list li a {
   .project-links {
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 5px;
   }
 
   #project-link-1,
