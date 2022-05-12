@@ -196,8 +196,8 @@ function modalInfo(btnID) {
         <p>${desc}</p>
       </div>
       <div class="project-links">
-        <a href="${liveLink}" id="project-link-1">See Live <span>&nbsp; &nbsp; &nbsp;</span> <i class="fas fa-external-link" aria-hidden="true"></i></a>
-        <a href="${gitLink}" id="project-link-2">See Source <span>&nbsp; &nbsp; &nbsp;</span> <i class="fab fa-github" aria-hidden="true"></i></a>
+        <a href="${liveLink}" id="project-link-1">See Live <i class="fas fa-external-link" aria-hidden="true"></i></a>
+        <a href="${gitLink}" id="project-link-2">See Source <i class="fab fa-github" aria-hidden="true"></i></a>
       </div>
     </div>
   </div>

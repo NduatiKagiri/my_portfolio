@@ -109,6 +109,10 @@ nav .nav-links-list li a {
     width: 80%;
   }
 
+  .nav-links {
+    display: none;
+  }
+
   .nav-links-list {
     margin-top: 1px;
     position: absolute;
@@ -428,12 +432,13 @@ nav .nav-links-list li a {
 
 .project-img {
   width: 49.5%;
-  height: auto;
+  height: 100%;
+  overflow: hidden;
 }
 
 .project-img img {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .project-title,
