@@ -28,6 +28,11 @@ Open the folder in a text editor
 Deployment
 Deploy on Github or Cloud
 
+or clone directly from Github using the following git command:
+```
+git clone https://github.com/NduatiKagiri/my_portfolio.git
+```
+
 ## Authors
 :bust_in_silhouette: **NduatiKagiri**
 

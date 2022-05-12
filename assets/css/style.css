@@ -109,7 +109,7 @@ nav .nav-links-list li a {
     width: 80%;
   }
 
-  .nav-links {
+  .nav-links-m {
     display: none;
   }
 
@@ -1111,6 +1111,23 @@ nav .nav-links-list li a {
   line-height: 24px;
   color: #979493;
   margin-bottom: 24px;
+}
+
+#email-message {
+  display: none;
+  width: auto;
+  padding: 4px 16px;
+  border: none;
+  background: #e78587;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #fff;
+  margin-bottom: 2px;
+  margin-left: 0;
+  border-radius: 4px;
 }
 
 .contact-form form textarea {
